@@ -1,0 +1,34 @@
+:root {
+    /*Text colors*/
+    --main-txt-clr: #757575;
+    --title-txt-clr: #212121;    
+
+}
+
+body {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    background-color: #E5E5E5;
+
+}
+
+.link {
+    text-decoration: none;
+    color: current;
+
+}
+
+.list {
+    list-style: none;
+}
+
+
+
+
+
+    
+
