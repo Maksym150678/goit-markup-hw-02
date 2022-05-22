@@ -1,31 +1,267 @@
 :root {
     /*Text colors*/
     --main-txt-clr: #757575;
-    --title-txt-clr: #212121;    
-
+    --title-txt-clr: #212121;
+    --secondary-txt-clr:
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: #757575;
-    background-color: #E5E5E5;
+    font-size: 14px';
+ color: #757575;
+}
+
+.logo-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #2196F3;
 
 }
 
-.link {
+.logo-accent {
+    color: #212121;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+
+:link {
     text-decoration: none;
-    color: current;
+    color: currentColor;
+}
+
+:link:hover {
+    color: white
+}
+
+.nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
 
 }
 
-.list {
-    list-style: none;
+.nav-link-active {
+    color: #2196F3;
+}
+
+.nav-link:hover {
+    color: white
+}
+
+.nav-item:hover {
+    color: white
+}
+
+.header {
+    background: #FFFFFF;
+}
+
+.nav-link-active:hover {
+    color: white;
+}
+
+.contacts-link-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #2196F3;
+}
+
+.contacts-link-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: #757575;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    cursor: pointer
+}
+
+.hero-button:hover {
+    color: blue;
+}
+
+.hero {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #FFFFFF;
+    background: #2F303A;
 }
 
 
+.hero-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
 
+.benefits {
+    background: #E5E5E5;
+}
 
+.title-cection-benefits {}
 
-    
+.benefits-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14 color: #212121;
+}
 
+.benefits-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7 color: #757575;
+}
+
+.activity {
+    background: #E5E5E5;
+}
+
+.title-activity {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.title-team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: #757575;
+}
+
+.team-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: #757575;
+    background: #FFFFFF;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+.logo-link-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
+
+.logo-accent-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #FFFFFF;
+}
+
+.contacts-adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
+
+.contacts-link-mail-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-link-tel-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.main {
+    background: #E5E5E5;
+}
+
+.button-filters {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #FFFFFF;
+    background: #F5F4FA;
+}
+
+.button-filters-all {
+    color: #FFFFFF;
+    background: #2196F3;
+
+}
+
+.portfolio {
+    background: #E5E5E5;
+}
+
+.conteyner-portfolio-poster {
+    background: #FFFFFF;
+}
