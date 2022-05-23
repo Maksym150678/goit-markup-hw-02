@@ -2,7 +2,7 @@
     /*Text colors*/
     --main-txt-clr: #757575;
     --title-txt-clr: #212121;
-    --secondary-txt-clr:
+    --secondary-txt-clr: color: #2196F3;
 }
 
 body {
@@ -25,15 +25,10 @@ body {
     color: #212121;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-    margin: 0;
+
+h p,
+{
+margin: 0;
 }
 
 :link {
@@ -55,24 +50,34 @@ ul {
 
 }
 
-.nav-link-active {
+
+.nav-link:hover {
     color: #2196F3;
 }
 
-.nav-link:hover {
-    color: white
+.nav-link:active {
+    color: #2196F3;
 }
 
-.nav-item:hover {
-    color: white
+.nav-link:focus {
+    color: #2196F3;
 }
 
 .header {
     background: #FFFFFF;
 }
 
+
 .nav-link-active:hover {
-    color: white;
+    color: #2196F3;
+}
+
+.nav-link-active:focus {
+    color: #2196F3;
+}
+
+.nav-link-active:focus {
+    color: #2196F3;
 }
 
 .contacts-link-mail {
@@ -81,8 +86,14 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    color: #757575;
+
+}
+
+.contacts-link-mail:hover {
     color: #2196F3;
 }
+
 
 .contacts-link-tel {
     font-family: 'Roboto';
@@ -91,6 +102,10 @@ ul {
     font-size: 14px;
     line-height: 1.14px;
     color: #757575;
+}
+
+.contacts-link-tel:hover {
+    color: #2196F3;
 }
 
 .title {
@@ -236,6 +251,14 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-link-tel-footer:hover {
+    color: #2196F3;
+}
+
+.contacts-link-mail-footer:hover {
+    color: #2196F3;
 }
 
 .main {
