@@ -3,12 +3,18 @@
     --main-txt-clr: #757575;
     --title-txt-clr: #212121;
     --secondary-txt-clr: color: #2196F3;
+    --bcg-color: #2F303A;
+    --primary-letter-spacing: 0.03em; 
+    --secondary-letter-spacing: 0.02em;
+    --hero-letter-spacing: 0.06em;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px';
- color: #757575;
+    color: var(--primary-text-color);
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: var(--primary-letter-spacing);
 }
 
 .logo-link {
@@ -41,8 +47,6 @@ margin: 0;
 }
 
 .nav-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
