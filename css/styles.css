@@ -317,6 +317,7 @@ address {
     color: var(--primary-text-color);
     text-align: center;
     letter-spacing: var(--primary-letter-spacing);
+    background-color: #F5F4FA;
     cursor: pointer;
 }
 
