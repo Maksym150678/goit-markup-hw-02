@@ -10,7 +10,7 @@
     --hero-letter-spacing: 0.06em;
 }
 
-.body {
+body {
     font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
     background-color: #fff;
@@ -60,26 +60,44 @@ p {
 }
 
 .nav-link:hover {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--accent-color);
 }
 
 .nav-link:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--accent-color);
 }
 
 .nav-link.current {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--accent-color);
 }
 
 .nav-link:active {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--accent-color);
 }
 
 .nav-link-studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--accent-color)
 }
 
 .nav-link-portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--accent-color)
 }
 
@@ -179,11 +197,6 @@ p {
     font-size: 14px;
     line-height: 1.7;
     color: var(--main-txt-clr);
-}
-
-.activity {
-    background: #E5E5E5;
-
 }
 
 .activity-list {
@@ -302,7 +315,6 @@ address {
     font-size: 16px;
     line-height: 1.63;
     color: var(--primary-text-color);
-    background: #F5F4FA;
     text-align: center;
     letter-spacing: var(--primary-letter-spacing);
     cursor: pointer;
@@ -339,13 +351,6 @@ address {
 }
 
 
-
-
-
-.portfolio {
-
-    background: #E5E5E5;
-}
 
 .conteyner-portfolio-poster {
     background: #FFFFFF;
